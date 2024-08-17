@@ -7,7 +7,84 @@ body{
   margin: 20px;
   padding: 0;
 }
+
 h1 {
-  margin-top= 0;
-  font-size= 22xp;
+  margin-top: 0;
+  font-size: 22xp;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20xp;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18xp;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16xp;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14xp;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12xp;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20xp;
+}
+
+* {
+  box-sizing: boarder-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20xp;
+  padding: 0;
+}
+
+.square {
+  background:;
+  boader: 1px soid;
+  float: left;
+  font-size: 24xp;
+  font-weight: bold;
+  line-hight: 34xp;
+  hight: 34xp;
+  margin-right: -1xp;
+  margin-top: -1xp;
+  padding: 0;
+  text-aline: center;
+  with: 34xp;
+}
+
+.board-row: after {
+  clear: both;
+  context: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10xp;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+game-info {
+  margin-left: 20xp
 }
